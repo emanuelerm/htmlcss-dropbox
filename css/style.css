@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --body-bg: #FFFFFF;
+    --hero-bg: #B4D0E7;
+    --button-bg: #0061FF;
+    --designit-bg: #A2D39B;
+    --asu-bg: #61082B;
+    --uf-bg: #0093CE;
+    --topps-bg: #FF1C1C;
+    --bicycle-bg: #D5001F;
+    --hearst-bg: #B4D0E7;
+    --lonely-bg: #0D2481;
+    --clear-bg: #FFD830;
+    --free-trial-bg: #B4D0E7;
+    --footer-bg: #000000;
+    --center-designit-bg: #F5F5F5;
+    --main-text: #000000;
+    --button-footer-text: #FFFFFF;
+    --free-trial-text: #61082B;
+    --border: #d0d0d3;
+
+}
+
+span {
+    display: inline-block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.m-full {
+    justify-content: space-between;
+}
+
+nav {
+    background-color: var(--body-bg);
+    padding: 1.7rem 1rem;
+    border-bottom: 2px #f1f3f6 solid;
+}
+
+.padding-sides {
+    padding: 0 1rem;
+}
+
+.border-but {
+    border-bottom: 1px transparent solid;
+}
+
+header li:hover {
+    border-bottom: 1px black solid;
+}
+
+#logo-dropbox {
+    padding-right: 1rem;
+}
+
+.blue-button {
+    background-color: var(--button-bg);
+    color: var(--button-footer-text);
+    display: inline-block;
+}
+
+header nav a {
+    padding: 0.3rem 1rem;
+}
+
+/* 1st section hero */
+
+main {
+    margin-top: 5.37rem;
+}
+
+#hero {
+    background-color: var(--hero-bg);
+    padding-bottom: 0.6rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#jumbo {
+    float: right;
+    width: 70%;
+}
+
+#jumbo img {
+    width: 100%;
+}
+
+#big-title {
+    font-size: 4.2vw;
+    font-weight: 800;
+}
+
+.p-top-4rem {
+    padding-top: 4rem;
+}
+
+.m-bot-3rem {
+    margin-bottom: 3rem;
+}
+
+#hero a {
+    padding: 0.6rem 1rem;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+    color: #000000;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 2nd section find the best plan for you */
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.p-top-5rem {
+    padding-top: 9rem;
+}
+
+h2 {
+    font-size: 2.55rem;
+}
+
+.input {
+    display: inline-block;
+    margin: 4rem 2rem 3rem 0;
+    font-size: 0.95rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.plans {
+    width: calc(100% / 3);
+    border: 1px solid var(--border);
+}
+
+.plans-title {
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.plans-info {
+    padding: 0 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.m-ud-2rem {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.bold-price {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.plans-type {
+    font-size: 0.9rem;
+    color: #808080;
+}
+
+.p-top-1rem {
+    padding-top: 0.5rem;
+}
+
+.flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.plans-general {
+    margin: 3rem 0;
+}
+
+.plans-general li {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.plans-general .fa-solid {
+    padding-right: 0.3rem;
+}
+
+.gap {
+    gap: 0 3rem;
+}
+
+.plans-button {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.acquista-ora {
+    margin: 1.5rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.acquista-ora a {
+    text-decoration: underline;
+}
+
+.plans hr {
+    width: 3rem;
+    color: var(--border);
+}
+
+.plans-highlights {
+    margin-top: 2.5rem;
+}
+
+.plans-highlights li {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.plans-highlights .fa-solid {
+    color: var(--button-bg);
+    padding-right: 0.3rem;
+}
+
+.plans h4 {
+    padding-bottom: 1rem;
+}
+
+#plan-column {
+    border: 1px solid var(--border);
+    margin-top: 3rem;
+}
+
+#plan-title {
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.c-center {
+    align-items: center;
+}
+
+.p-2rem {
+    padding: 0 2rem;
+}
+
+.p-top-2rem {
+    padding-top: 2rem;
+}
+
+.p-ud-1-3rem {
+    padding: 1.5rem 0 3rem;
+}
+
+#column-info .blue-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.font-small {
+    font-size: 0.9rem;
+}
+
+.p-bot-2rem {
+    padding-bottom: 2rem;
+}
+
+/* 3rd section discover partner Dropbox */
+
+.float-partner {
+    float: left;
+    width: 64%;
+    margin-right: 2rem;
+}
+
+.float-partner img {
+    width: 100%;
+}
+
+.p-bot-1rem {
+    padding-bottom: 1rem;
+}
+
+.grey-button {
+    border: 1px black solid;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+}
+
+/* 4th section make more operations */
+
+.w-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gap-2 {
+    gap: 0 2rem;
+}
+
+.operation-cards {
+    width: calc((100% / 3) - 2rem);
+    margin-bottom: 2rem;
+}
+
+.operation-cards img {
+    width: 100%;
+}
+
+.p-bot-4rem {
+    padding-bottom: 4rem;
+}
+
+/* 5th section our partners */
+
+#short-width {
+    width: 70%;
+    margin: 3rem 0;
+}
+
+.blue-underline {
+    color: blue;
+    text-decoration: underline;
+}
+
+.squares {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.m-top-7rem {
+    margin-top: 7rem;
+}
+
+.mini-squares {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.mini-squares img {
+    filter: invert(1);
+    width: 50%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#designit {
+    background-color: var(--designit-bg);
+}
+
+#arizona {
+    background-color: var(--asu-bg);
+}
+
+#florida {
+    background-color: var(--uf-bg);
+}
+
+#topps {
+    background-color: var(--topps-bg);
+}
+
+#bicycle {
+    background-color: var(--bicycle-bg);
+}
+
+#hearts {
+    background-color: var(--hearst-bg);
+}
+
+#lonely {
+    background-color: var(--lonely-bg);
+}
+
+#channel {
+    background-color: var(--clear-bg);
+}
+
+#wipro-company {
+    background-color: #f5f5f5;
+    padding: 3rem;
+}
+
+#wipro-company img {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+#wipro-company hr {
+    width: 6rem;
+    color: #d0d0d3;
+    margin-bottom: 3rem;
+}
+
+/* 6th section brings Dropbox to your company */
+
+#bring-dropbox {
+    background-color: var(--free-trial-bg);
+}
+
+#bring-dropbox .container-small {
+    padding: 10rem 0;
+}
+
+#bring-dropbox h2 {
+    color: var(--free-trial-text);
+    width: 50%;
+}
+
+#bring-dropbox .grey-button {
+    align-self: flex-start;
+    border: 0;
+}
+
+/* 7th section faq */
+
+details summary {
+    border-top: 1px solid #d0d0d3;
+    padding: 2rem 0;
+    font-weight: 700;
+}
+
+details summary .fa-chevron-down {
+    float: right;
+    padding-right: 2rem;
+}
+
+#border-bottom {
+    border-bottom: 1px solid #d0d0d3;
+    margin-bottom: 7rem;
+}
+
+#faq .container-small {
+    padding-bottom: 8rem;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--footer-bg);
+}
+
+footer h4 {
+    color: var(--body-bg);
+    margin-bottom: 1rem;
+}
+
+.footer-section {
+    margin: 4rem 0;
+}
+
+.footer-section li {
+    padding: 0.25rem 0;;
+}
+
+.footer-section a {
+    color: var(--body-bg);
+    font-size: 0.9rem;
+}
+
+/* choose language */
+
+footer hr {
+    width: 7rem;
+}
+
+select {
+    margin: 3rem 0;
+}
